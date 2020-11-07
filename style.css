@@ -1,0 +1,174 @@
+body{margin:0;
+  padding:0; 
+  background:#f5f5f5;
+}
+
+.navbar {list-style:none;
+margin:0;
+padding:0;
+background:gray;
+text-align:center;}
+
+.navbar li{
+display: inline-block
+}
+
+.navbar a { 
+display:block;
+padding: 0 20px;
+text-decoration:none;
+text-transform:capitalize;
+font-size:35px;
+color:white;
+line-height:50px;
+transition-duration:3s;}
+
+      .homepage{
+        margin:5%;
+        padding:0;
+        text-align:center;
+        font-size:40px
+      }
+      
+      .one{ 
+        text-align:right;
+        margin-right:-5%;
+        margin-top:10%;
+      }
+      
+      .icon{
+        text-align:center;
+      } 
+
+      .mhmd{list-style:none;
+text-align:center;
+}
+
+       .aboutme1{font-size:50px;
+      text-align:center;
+outline: thick ridge black;
+}
+
+.aboutme2{font-size:50px;
+      text-align:center;
+outline: thick ridge gray;
+}
+
+.aboutweb{text-align:center;
+        font-size:50px;
+      }
+      .abouti{
+        text-align:center;
+        font-size:40px;
+      }
+
+      .htmlcss{
+        border:solid 5px;
+        text-align:center ;
+        font-size:40px;}
+      .logo1{
+        margin:20%;
+        text-align:center;}
+      .textco{
+        padding:10%;
+        font-size:50px;
+        color:black;}
+
+      .png{
+font-size:400px;
+  width:900px;
+  height:900px;
+  text-align:center;
+  margin: 0 16px;
+}
+
+.sizetext{font-size:35px}
+
+
+
+.mhmd{color:black}
+
+.one{color:black;
+font-size:40px;
+text-align:center;}
+
+.texttest{color:white;
+font-size:50px;}
+
+ul{color:white;
+  font-size:30px;}
+.imgtest{border:solid 3px gray }
+.texttest{color:black}
+.texttest1{text-align:center;}
+
+iframe{ border:solid 5px gray; }
+
+
+.sm a{
+  display: inline-block;
+  font-size: 40px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: black;
+  margin: 0 16px;
+  transition: .4s linear;
+  position: relative;
+}
+
+.sm a::before, .sm a::after{
+  content: '';
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: .4s linear;
+}
+
+.sm a:hover{
+  transform: scale(.8);
+}
+
+.sm a:hover::before{
+  border-left: 4px solid;
+  border-right: 4px solid;
+  transform: skewX(20deg);
+}
+
+.sm a:hover::after{
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+  transform: skewY(-20deg);
+}
+##
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+  display: grid;
+  height: 100%;
+}
+.text{
+  font-size: 80px;
+  font-weight: 800;
+  outline: none;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100%);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  animation: animate 10s linear infinite;
+}
+@keyframes animate {
+  to{
+    background-position: 400%;
+  }
+}
+
